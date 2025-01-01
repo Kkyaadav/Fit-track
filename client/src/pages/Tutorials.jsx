@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const options = {
   method: 'GET',
   headers: {
-    'x-rapidapi-key': '3abc4134bemshed87f5d54b8dcbbp1d3fedjsn9892e614c36f',
+    'x-rapidapi-key': 'your-api-key',
     'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
   }
 };
