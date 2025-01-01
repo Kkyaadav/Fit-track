@@ -8,6 +8,7 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
 `;
 const Logo = styled.img`
   height: 47px;

@@ -30,6 +30,7 @@ const Wrapper = styled.div`
 const Left = styled.div`
   flex: 0.2;
   height: fit-content;
+ scroll: auto;
   padding: 18px;
   border: 1px solid ${({ theme }) => theme.text_primary + 20};
   border-radius: 14px;

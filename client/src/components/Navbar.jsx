@@ -153,7 +153,7 @@ const Navbar = ({ currentUser }) => {
           <Navlink to="/">Dashboard</Navlink>
           <Navlink to="/workouts">Workouts</Navlink>
           <Navlink to="/tutorials">Tutorials</Navlink>
-          <Navlink to="/contact">Contact</Navlink>
+          <Navlink to="/about">About</Navlink>
         </NavItems>
 
         <UserContainer>

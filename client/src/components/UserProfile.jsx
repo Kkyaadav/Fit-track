@@ -9,7 +9,8 @@ const Container = styled.div`
  flex-direction:column;
     justify-content:center;
     align-items:center;
-
+    
+  
 `;
 const Span=styled.span`
   
@@ -26,8 +27,10 @@ const Card=styled.div`
     height:50vh;
     width:25vw;
     padding:1rem;
-
-
+    @media (max-width: 600px) {
+      width:85%;
+    }
+  
 `;
 
 
@@ -40,16 +43,18 @@ function UserProfile() {
         <ToastContainer/>
         <Card>
             <div style={{display:'flex',flexDirection:'row', alignItems:'flex-end'}}>
-            <Avatar style={{height:'20vh', width:'9vw'}} src={currentUser?.img}/>
+            <Avatar style={{height:'90%', width:'85%'}} src={currentUser?.img}/>
             <Edit style={{border:'1px solid gray',borderRadius:'50%',padding:'2px',height:'15px',width:'15px'}}
                 onClick={()=>{
                   toast.success('Edit feature coming soon')
                 }}
             />
             </div>
+            <div>
             <p>Username : <Span>{currentUser?.name}</Span> </p>
             <p>Email : <Span>{currentUser?.email}</Span></p>
             <p>Joined on : {currentUser.createdAt.substring(0,10)}</p>
+            </div>
         </Card>
     </Container>
   )

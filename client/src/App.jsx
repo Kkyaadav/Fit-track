@@ -9,6 +9,7 @@ import Workouts from "./pages/Workouts";
 import Footer from "./components/Footer";
 import Tutorials from "./pages/Tutorials";
 import UserProfile from "./components/UserProfile";
+import AboutUs from "./components/AboutUS";
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -35,6 +36,7 @@ function App() {
               <Route path="/workouts" exact element={<Workouts />} />
               <Route path="/tutorials" exact element={<Tutorials/>} />
               <Route path="/profile" exact element={<UserProfile />} />
+              <Route path="/about" exact element={<AboutUs/>} />
             </Routes>
           </Container>
         ) : (
