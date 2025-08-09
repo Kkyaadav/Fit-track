@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { useState } from 'react';
 import SignUp from '../components/SignUp';
 import SignIn from '../components/SignIn';
-import LogoImage from '../utils/images/logo.png';
-import AuthImage from '../assets/gym.jpg';
+import LogoImage from '../../public/images/Logo.png';
+import AuthImage from '../../public/images/AuthImage.jpg';
 const Container = styled.div`
   flex: 1;
   height: 100%;

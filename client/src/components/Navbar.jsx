@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImg from "../utils/Images/Logo.png";
+import LogoImg from "../../public/images/Logo.png";
 import { Link as LinkR, NavLink, redirect } from "react-router-dom";
 import { Logout, MenuRounded } from "@mui/icons-material";
 import { Avatar } from "@mui/material";

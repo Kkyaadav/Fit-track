@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import LogoImg from '../utils/images/Logo.png';
+import LogoImg from '../../public/images/Logo.png';
 const Container = styled.div`
     width: 100%;
     height: 70px;
